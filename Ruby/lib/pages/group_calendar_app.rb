@@ -5,7 +5,7 @@ class GroupCalendarApp<GenericBasePage
 
   element(:username) {|b| b.text_field(name:"P101_USERNAME")}          #Username text field
   element(:password) {|b| b.text_field(name:"P101_PASSWORD")}               #Password text field
-  element(:loginbutton) {|b| b.input(type:"button")}                        #Login Button
+  element(:loginbutton) {|b| b.input(id:"B3137266372555541848")}                        #Login Button
 
 
   def signIn

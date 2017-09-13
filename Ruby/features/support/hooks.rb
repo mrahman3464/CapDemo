@@ -51,8 +51,8 @@ Before do
     ENV['WHERE'] ||= "local"
 
     if(ENV['WHERE']=="remote")
-
-      @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://sameer3464:3652cbce-ea2a-4a54-8cc6-cc41d6b00c1f@ondemand.saucelabs.com:80/wd/hub"})
+       # user:militim pass:Mihad2016
+      @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://militim:ac90d57e-9e97-4f8f-b1d6-a5cabcb8e096@ondemand.saucelabs.com:80/wd/hub"})
 
     else
       # @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym)
@@ -85,7 +85,7 @@ Before do
 #   if(ENV['WHERE']=="remote")
 #   # @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://mrahman1:55a94ff3-c894-4211-a918-67047d2da2ef@localhost:4444/wd/hub"})
 #     @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://sgrahman:363648ef-2b14-4e4d-a137-1cb8792bcb0f@ondemand.saucelabs.com:443/wd/hub"})
-#     #@browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://mrahman1:55a94ff3-c894-4211-a918-67047d2da2ef@ondemand.saucelabs.com:443/wd/hub"})
+
 #
 #
 #     if (ENV['BROWSER']=="chrome")

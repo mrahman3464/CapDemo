@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>lib/pages/group_calendar_app.rb</title>
+    <title>lib/pages/calendars_page.rb</title>
     <link href="./assets/0.2.3/screen.css" media="all" rel="stylesheet" type="text/css" />
     <link href="./assets/0.2.3/print.css" media="print" rel="stylesheet" type="text/css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Ruby C0 Coverage Information - Simploco - RCov</h1>
-    <h2>lib/pages/group_calendar_app.rb</h2>
+    <h2>lib/pages/calendars_page.rb</h2>
 
     <div class="report_table_wrapper">
       <table class='report' id='report_table'>
@@ -24,18 +24,18 @@
         </thead>
         <tbody>
           <tr>
-            <td class="left_align"><a href="lib-pages-group_calendar_app_rb.html">lib/pages/group_calendar_app.rb</a></td>
-            <td class='right_align'><tt>18</tt></td>
-            <td class='right_align'><tt>9</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>83.33%</tt></div>
+            <td class="left_align"><a href="lib-pages-calendars_page_rb.html">lib/pages/calendars_page.rb</a></td>
+            <td class='right_align'><tt>19</tt></td>
+            <td class='right_align'><tt>12</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>73.68%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:83px"></div>
-        <div class="uncovered" style="width:17px"></div>
+        <div class="covered" style="width:74px"></div>
+        <div class="uncovered" style="width:26px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>66.67%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>58.33%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:67px"></div>
-        <div class="uncovered" style="width:33px"></div>
+        <div class="covered" style="width:58px"></div>
+        <div class="uncovered" style="width:42px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -51,46 +51,46 @@
     <table class="details">
       <tbody>
         <tr class="marked">
-          <td><pre><a name="line2">2</a> class GroupCalendarApp&lt;GenericBasePage</pre></td>
+          <td><pre><a name="line2">2</a> class CalendarsPage&lt;GenericBasePage</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line3">3</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line4">4</a>   page_url &quot;http://apex.oracletool.com:4565/apex/f?p=102:1&quot;</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line5">5</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line6">6</a> </pre></td>
+          <td><pre><a name="line4">4</a>   element(:addcalender) {|b| b.button(id:&quot;B1851158969811320876&quot;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line7">7</a>   element(:username) {|b| b.text_field(name:&quot;P101_USERNAME&quot;)}          #Username text field</pre></td>
+          <td><pre><a name="line5">5</a>   element(:shortName) {|b| b.text_field(id:&quot;P44_SHORT_NAME&quot;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line8">8</a>   element(:password) {|b| b.text_field(name:&quot;P101_PASSWORD&quot;)}               #Password text field</pre></td>
+          <td><pre><a name="line6">6</a>   element(:name) {|b| b.text_field(id:&quot;P44_CALENDAR_NAME&quot;)}</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line9">9</a>   element(:loginbutton) {|b| b.input(id:&quot;B3137266372555541848&quot;)}                        #Login Button</pre></td>
+          <td><pre><a name="line7">7</a>   element(:canPublicViewNo) {|b| b.label(xpath:&#39;//*[@id=&quot;P44_PUBLIC_VIEW_YN&quot;]/label[2]&#39;)}</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line8">8</a>   element(:description) {|b| b.textarea(id:&quot;P44_DESCRIPTION&quot;)}</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line10">10</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line11">11</a> </pre></td>
+          <td><pre><a name="line9">9</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line12">12</a>   def signIn</pre></td>
+          <td><pre><a name="line10">10</a>   def addCalender</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line13">13</a>     username.when_present.set(&quot;cggs&quot;)</pre></td>
+          <td><pre><a name="line11">11</a>     addcalender.when_present.click</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line14">14</a>     password.when_present.set(&quot;cggs&quot;)</pre></td>
+          <td><pre><a name="line12">12</a>     shortName.when_present.set getRecord(&quot;firstName&quot;)</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line15">15</a>     loginbutton.when_present.click</pre></td>
+          <td><pre><a name="line13">13</a>     name.when_present.set getFullName</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line14">14</a>     canPublicViewNo.when_present.click</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line15">15</a>     description.when_present.set(&quot;This is an Example Description&quot;)</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line16">16</a>   end</pre></td>
@@ -102,7 +102,10 @@
           <td><pre><a name="line18">18</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line19">19</a> end</pre></td>
+          <td><pre><a name="line19">19</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line20">20</a> end</pre></td>
         </tr>
       </tbody>
     </table>

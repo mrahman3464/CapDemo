@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>features/step_definitions/SalseForceExample.rb</title>
+    <title>lib/pages/group_calender_home.rb</title>
     <link href="./assets/0.2.3/screen.css" media="all" rel="stylesheet" type="text/css" />
     <link href="./assets/0.2.3/print.css" media="print" rel="stylesheet" type="text/css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Ruby C0 Coverage Information - Simploco - RCov</h1>
-    <h2>features/step_definitions/SalseForceExample.rb</h2>
+    <h2>lib/pages/group_calender_home.rb</h2>
 
     <div class="report_table_wrapper">
       <table class='report' id='report_table'>
@@ -24,18 +24,18 @@
         </thead>
         <tbody>
           <tr>
-            <td class="left_align"><a href="features-step_definitions-SalseForceExample_rb.html">features/step_definitions/SalseForceExample.rb</a></td>
-            <td class='right_align'><tt>7</tt></td>
-            <td class='right_align'><tt>4</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>71.43%</tt></div>
+            <td class="left_align"><a href="lib-pages-group_calender_home_rb.html">lib/pages/group_calender_home.rb</a></td>
+            <td class='right_align'><tt>15</tt></td>
+            <td class='right_align'><tt>6</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>86.67%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:71px"></div>
-        <div class="uncovered" style="width:29px"></div>
+        <div class="covered" style="width:87px"></div>
+        <div class="uncovered" style="width:13px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>66.67%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:50px"></div>
-        <div class="uncovered" style="width:50px"></div>
+        <div class="covered" style="width:67px"></div>
+        <div class="uncovered" style="width:33px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -51,25 +51,49 @@
     <table class="details">
       <tbody>
         <tr class="marked">
-          <td><pre><a name="line2">2</a> Given(/^User navigate to salesforce Login Page$/) do</pre></td>
-        </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line3">3</a>   visit SalesForceLogInPage</pre></td>
+          <td><pre><a name="line2">2</a> class GroupCalenderHome&lt;GenericBasePage</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line4">4</a> end</pre></td>
+          <td><pre><a name="line3">3</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line5">5</a> </pre></td>
+          <td><pre><a name="line4">4</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line6">6</a> Then(/^User logs in with valid credentials$/) do</pre></td>
+          <td><pre><a name="line5">5</a>   element(:admin) {|b| b.link(text:&quot;Administration&quot;)}          #Add Event button</pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line7">7</a>   on(SalesForceLogInPage).signIn</pre></td>
+        <tr class="marked">
+          <td><pre><a name="line6">6</a>   element(:calender) {|b| b.h3(text:&quot;Calendars&quot;)}          #Calender</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line8">8</a> end</pre></td>
+          <td><pre><a name="line7">7</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line8">8</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line9">9</a>   def gotoCalenderPage</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line10">10</a>     admin.when_present.click</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line11">11</a>     calender.when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line12">12</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line13">13</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line14">14</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line15">15</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line16">16</a> end</pre></td>
         </tr>
       </tbody>
     </table>

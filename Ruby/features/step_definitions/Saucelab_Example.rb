@@ -4,7 +4,8 @@ Given(/^User navigate to Simple Web Sheet Login Page "([^"]*)"$/) do |browser|
   ENV['BROWSER'] = "chrome" if ENV['BROWSER'].nil?
   ENV['WHERE'] = "local" if ENV['WHERE'].nil?
   if(ENV['WHERE']=="remote")
-    @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://sameer3464:3652cbce-ea2a-4a54-8cc6-cc41d6b00c1f@ondemand.saucelabs.com:80/wd/hub"})
+
+    @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym,{url:"http://militim:ac90d57e-9e97-4f8f-b1d6-a5cabcb8e096@ondemand.saucelabs.com:80/wd/hub"})
   else
     @browser = SauceLabs.watir_browser(ENV['BROWSER'].to_sym)
   end

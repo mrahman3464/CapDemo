@@ -47,14 +47,15 @@
     <SUITE FILE_PATH="coverage/Ruby@Scenario__Simple_Web_App_API_Testing__1_.coverage" NAME="Scenario: Simple Web App API Testing (1) Coverage Results" MODIFIED="1505193078546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Delete_Users__2_.coverage" NAME="Scenario: Delete Users (2) Coverage Results" MODIFIED="1472703874045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Login_with_invalid_credentials__4_.coverage" NAME="Scenario: Login with invalid credentials (4) Coverage Results" MODIFIED="1472588296794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
-    <SUITE FILE_PATH="coverage/Ruby@Scenario__Extract_Data_From_Database.coverage" NAME="Scenario: Extract Data From Database Coverage Results" MODIFIED="1504635274312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
+    <SUITE FILE_PATH="coverage/Ruby@Scenario__Extract_Data_From_Database.coverage" NAME="Scenario: Extract Data From Database Coverage Results" MODIFIED="1505233738429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/PageObject_Data_Driven_Framework@Scenario__User_should_be_able_to_login_to_their_Kudos_account_with_valid_credentials__4_.coverage" NAME="Scenario: User should be able to login to their Kudos account with valid credentials (4) Coverage Results" MODIFIED="1472494886351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Multiple_users_should_be_able_to_login_to_their_account_and_should_be_able_to_check_their_profile_info__1_.coverage" NAME="Scenario: Multiple users should be able to login to their account and should be able to check their profile info (1) Coverage Results" MODIFIED="1472706987018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/PageObject_Data_Driven_Framework@Scenario__User_should_be_able_to_login_to_their_Kudos_account_with_valid_credentials__5_.coverage" NAME="Scenario: User should be able to login to their Kudos account with valid credentials (5) Coverage Results" MODIFIED="1472494821000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/PageObject_Data_Driven_Framework@Scenario__User_should_be_able_to_login_to_their_Kudos_account_with_valid_credentials.coverage" NAME="Scenario: User should be able to login to their Kudos account with valid credentials Coverage Results" MODIFIED="1472494070337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Sauce_labs_example_with_various_browsers__4_.coverage" NAME="Scenario: Sauce labs example with various browsers (4) Coverage Results" MODIFIED="1472613163157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
+    <SUITE FILE_PATH="coverage/Ruby@Scenario__Sauce_labs_example_with_various_browsers.coverage" NAME="Scenario: Sauce labs example with various browsers Coverage Results" MODIFIED="1505271456491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Manage_Users_feature.coverage" NAME="Manage_Users.feature Coverage Results" MODIFIED="1472705760783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
-    <SUITE FILE_PATH="coverage/Ruby@Scenario__Happy_Path__2_.coverage" NAME="Scenario: Happy Path (2) Coverage Results" MODIFIED="1502893553790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
+    <SUITE FILE_PATH="coverage/Ruby@Scenario__Happy_Path__2_.coverage" NAME="Scenario: Happy Path (2) Coverage Results" MODIFIED="1505269730677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Multiple_users_should_be_able_to_login_to_their_account_and_should_be_able_to_check_their_profile_info__5_.coverage" NAME="Scenario: Multiple users should be able to login to their account and should be able to check their profile info (5) Coverage Results" MODIFIED="1472708143037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__Login_with_invalid_credentials.coverage" NAME="Scenario: Login with invalid credentials Coverage Results" MODIFIED="1472610886769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/PageObject_Data_Driven_Framework@Scenario__Sauce_labs_example_with_various_browsers.coverage" NAME="Scenario: Sauce labs example with various browsers Coverage Results" MODIFIED="1472247578986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
@@ -66,7 +67,7 @@
     <SUITE FILE_PATH="coverage/Ruby@Scenario__Extract_Data_From_Database__2_.coverage" NAME="Scenario: Extract Data From Database (2) Coverage Results" MODIFIED="1504633713867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Ruby@Scenario__Add_a_New_User__1_.coverage" NAME="Scenario: Add a New User (1) Coverage Results" MODIFIED="1505151835298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__User_should_be_able_to_Search_People_by_name_to_give_kudos__2_.coverage" NAME="Scenario: User should be able to Search People by name to give kudos (2) Coverage Results" MODIFIED="1472706297551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
-    <SUITE FILE_PATH="coverage/Ruby@Scenario__Happy_Path__1_.coverage" NAME="Scenario: Happy Path (1) Coverage Results" MODIFIED="1502893275883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
+    <SUITE FILE_PATH="coverage/Ruby@Scenario__Happy_Path__1_.coverage" NAME="Scenario: Happy Path (1) Coverage Results" MODIFIED="1505268049715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Flash Test Framework@Scenario__User_should_be_able_to_Search_People_by_name_to_give_kudos.coverage" NAME="Scenario: User should be able to Search People by name to give kudos Coverage Results" MODIFIED="1472705905328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Ruby@SampleWebApp_feature.coverage" NAME="SampleWebApp.feature Coverage Results" MODIFIED="1505193614810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
     <SUITE FILE_PATH="coverage/Ruby@DataBaseExample_feature.coverage" NAME="DataBaseExample.feature Coverage Results" MODIFIED="1504634307753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="PageObject_Data_Driven_Framework" />
@@ -97,18 +98,7 @@
     <favorites_list name="PageObject_Data_Driven_Framework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DataBaseExample.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/DataBaseExample.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,11 +131,7 @@
         <option value="$PROJECT_DIR$/features/Multiple_Users.feature" />
         <option value="$PROJECT_DIR$/features/Give_Kudos.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/BugTracker.rb" />
-        <option value="$PROJECT_DIR$/features/GroupCalender.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/GroupCalender.rb" />
-        <option value="$PROJECT_DIR$/lib/pages/group_calendar_app.rb" />
         <option value="$PROJECT_DIR$/lib/pages/web_app_home_page.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/Saucelab_Example.rb" />
         <option value="$PROJECT_DIR$/features/Sacelab_Example.feature" />
         <option value="$PROJECT_DIR$/features/BugtrackerApp.feature" />
         <option value="$PROJECT_DIR$/lib/pages/RestClientExample.rb" />
@@ -159,7 +145,6 @@
         <option value="$PROJECT_DIR$/features/step_definitions/Database.rb" />
         <option value="$PROJECT_DIR$/lib/pages/database_connection.rb" />
         <option value="$PROJECT_DIR$/cucumber.yml" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/BackTrackerBackGround.feature" />
         <option value="$PROJECT_DIR$/lib/pages/bucktracker_app.rb" />
@@ -171,6 +156,13 @@
         <option value="$PROJECT_DIR$/features/SampleWebApp.feature" />
         <option value="$PROJECT_DIR$/lib/pages/rest_api_test.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/SampleWebApp.rb" />
+        <option value="$PROJECT_DIR$/lib/pages/group_calendar_app.rb" />
+        <option value="$PROJECT_DIR$/lib/pages/group_calender_home.rb" />
+        <option value="$PROJECT_DIR$/lib/pages/calendars_page.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/GroupCalender.rb" />
+        <option value="$PROJECT_DIR$/features/GroupCalender.feature" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/Saucelab_Example.rb" />
       </list>
     </option>
   </component>
@@ -180,7 +172,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1370" />
     <option name="height" value="735" />
@@ -209,11 +201,6 @@
               <item name="Ruby" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ruby" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Ruby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.SampleWebApp.feature">
+  <component name="RunManager" selected="Cucumber.Scenario: Sauce labs example with various browsers">
     <configuration name="SampleWebApp.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="PageObject_Data_Driven_Framework" />
@@ -270,7 +257,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="Scenario: Happy Path" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Extract Data From Database" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="PageObject_Data_Driven_Framework" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -287,7 +274,38 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/SampleWebApp.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/DataBaseExample.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Extract Data From Database$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
+    <configuration name="Scenario: Happy Path (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="PageObject_Data_Driven_Framework" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/GroupCalender.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Happy Path$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -301,7 +319,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="Scenario: Simple Web App API Testing (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Happy Path (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="PageObject_Data_Driven_Framework" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -318,9 +336,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/SampleWebApp.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/GroupCalender.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Simple Web App API Testing$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Happy Path$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -332,7 +350,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
-    <configuration name="Scenario: Simple Web App API Testing (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Sauce labs example with various browsers" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="PageObject_Data_Driven_Framework" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -349,40 +367,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/SampleWebApp.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/Sacelab_Example.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Simple Web App API Testing$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-    </configuration>
-    <configuration name="Scenario: Simple Web App API Testing (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="PageObject_Data_Driven_Framework" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/SampleWebApp.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Simple Web App API Testing$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Sauce labs example with various browsers$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -508,19 +495,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.SampleWebApp.feature" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.SampleWebApp.feature" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Extract Data From Database" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Sauce labs example with various browsers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.SampleWebApp.feature" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Simple Web App API Testing (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Sauce labs example with various browsers" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Happy Path (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Extract Data From Database" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.SampleWebApp.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -555,31 +542,31 @@
       <workItem from="1504628182065" duration="10593000" />
       <workItem from="1504721062247" duration="1660000" />
       <workItem from="1504901455689" duration="18078000" />
-      <workItem from="1505228024770" duration="298000" />
+      <workItem from="1505228024770" duration="7588000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleWebApp_feature - 2017.09.12 at 01h 22m 30s.xml">
-      <configuration name="SampleWebApp.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Extract_Data_From_Database - 2017.09.12 at 12h 29m 18s.xml">
+      <configuration name="Scenario: Extract Data From Database" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Happy_Path - 2017.09.12 at 01h 19m 58s.xml">
-      <configuration name="Scenario: Happy Path" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Happy_Path_(1) - 2017.09.12 at 21h 59m 38s.xml">
+      <configuration name="Scenario: Happy Path (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Simple_Web_App_API_Testing - 2017.09.12 at 00h 42m 57s.xml">
-      <configuration name="Scenario: Simple Web App API Testing" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Happy_Path_(1) - 2017.09.12 at 22h 01m 21s.xml">
+      <configuration name="Scenario: Happy Path (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Simple_Web_App_API_Testing - 2017.09.12 at 00h 44m 57s.xml">
-      <configuration name="Scenario: Simple Web App API Testing" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Happy_Path_(2) - 2017.09.12 at 22h 14m 43s.xml">
+      <configuration name="Scenario: Happy Path (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Simple_Web_App_API_Testing_(1) - 2017.09.12 at 01h 11m 32s.xml">
-      <configuration name="Scenario: Simple Web App API Testing (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Happy_Path_(2) - 2017.09.12 at 22h 28m 44s.xml">
+      <configuration name="Scenario: Happy Path (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Simple_Web_App_API_Testing_(2) - 2017.09.12 at 01h 12m 16s.xml">
-      <configuration name="Scenario: Simple Web App API Testing (2)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Happy_Path_(2) - 2017.09.12 at 22h 29m 20s.xml">
+      <configuration name="Scenario: Happy Path (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Simple_Web_App_API_Testing_(3) - 2017.09.12 at 01h 13m 21s.xml">
-      <configuration name="Scenario: Simple Web App API Testing (3)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__Sauce_labs_example_with_various_browsers - 2017.09.12 at 23h 00m 08s.xml">
+      <configuration name="Scenario: Sauce labs example with various browsers" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Simple_Web_App_API_Testing_(3) - 2017.09.12 at 01h 17m 04s.xml">
       <configuration name="Scenario: Simple Web App API Testing (3)" configurationId="CucumberRunConfigurationType" />
@@ -592,29 +579,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153484000" />
+    <option name="totallyTimeSpent" value="160774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473525" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10410095" sideWeight="0.1068814" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33224222" sideWeight="0.8931186" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23524962" sideWeight="0.50980395" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224222" sideWeight="0.8931186" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.49740598" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -656,44 +643,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/Like_Kudos.rb" />
-    <entry file="file://$PROJECT_DIR$/features/Like_kudos.feature" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/Multiple_users.rb" />
     <entry file="file://$PROJECT_DIR$/features/step_definitions/Give_Kudos.rb" />
     <entry file="file://$PROJECT_DIR$/features/Multiple_Users.feature" />
     <entry file="file://$PROJECT_DIR$/features/Friend.feature" />
     <entry file="file://$PROJECT_DIR$/features/Give_Kudos.feature" />
     <entry file="file://$PROJECT_DIR$/lib/pages/kudos_login_page.rb" />
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/GroupCalender.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/group_calendar_app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/Settings.rb" />
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/Saucelab_Example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/kudos_home_page.rb" />
-    <entry file="file://$PROJECT_DIR$/features/BugtrackerApp.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/SalesForce.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -715,24 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/GroupCalender.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/generic_base_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Sacelab_Example.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -821,31 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="171" column="42" lean-forward="true" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/bucktracker_app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/BugTracker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -860,6 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="46" column="79" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/reuseable_functions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="328" column="0" lean-forward="false" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -905,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pages/web_sheet_app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pages/RestClientExample.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -926,31 +835,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/SampleWebApp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/BackTrackerBackGround.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/SampleWebApp.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/DataBaseExample.feature">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/SampleWebApp.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/web_sheet_app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/BugTracker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/bucktracker_app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/SampleWebApp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/BugtrackerApp.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/group_calendar_app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="91" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/group_calender_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/reuseable_functions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="138" column="17" lean-forward="false" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pages/calendars_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/GroupCalender.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/GroupCalender.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/Saucelab_Example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Sacelab_Example.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -27,15 +27,15 @@
             <td class="left_align"><a href="features-step_definitions-SampleWebApp_rb.html">features/step_definitions/SampleWebApp.rb</a></td>
             <td class='right_align'><tt>27</tt></td>
             <td class='right_align'><tt>13</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>81.48%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:81px"></div>
+        <div class="uncovered" style="width:19px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>61.54%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:62px"></div>
+        <div class="uncovered" style="width:38px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -53,7 +53,7 @@
         <tr class="marked">
           <td><pre><a name="line2">2</a> Given(/^User navigate to Simple Web Sheet Login Page$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line3">3</a>   visit WebSheetApp</pre></td>
         </tr>
         <tr class="inferred">
@@ -92,7 +92,7 @@
         <tr class="marked">
           <td><pre><a name="line15">15</a> Then(/^User do some administrative work on Dashbord time frmae(.*)$/) do |timeframeoutline|</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line16">16</a>   on(WebAppHomePage).dashbordAdminOutline(timeframeoutline)</pre></td>
         </tr>
         <tr class="inferred">
@@ -104,7 +104,7 @@
         <tr class="marked">
           <td><pre><a name="line19">19</a> Given(/^the client authenticate with username and password$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line20">20</a>   $get_response = RestClient.get(&quot;http://apex.oracletool.com:4565/apex/ws?p=103:home&quot;)</pre></td>
         </tr>
         <tr class="inferred">
@@ -122,10 +122,10 @@
         <tr class="marked">
           <td><pre><a name="line25">25</a> Then(/^User verify the response code$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line26">26</a>   expect($get_response.code).to eq(200)</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line27">27</a>   puts &quot;Status Code For the Request:#{$get_response.code}&quot;</pre></td>
         </tr>
         <tr class="inferred">
@@ -134,7 +134,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2017-09-12 01:22:30 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-09-12 23:00:07 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>
