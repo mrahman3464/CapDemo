@@ -1,0 +1,124 @@
+<!--[if HTML5]><![endif]--><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en"><head><meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+<!--[if lt IE 7 ]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->  <!--<![endif]-->
+
+  <meta charset="UTF-8" />
+  <title>Websheets Sign In</title>
+  <link rel="shortcut icon" href="/i/ws/favicon.ico" />
+<link rel="icon" sizes="16x16" href="/i/ws/favicon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/i/ws/favicon-32x32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/i/ws/favicon-180x180.png" />
+  
+  <link rel="stylesheet" href="/i/app_ui/css/Core.min.css?v=5.1.2.00.09" type="text/css" />
+<link rel="stylesheet" href="/i/app_ui/css/Theme-Standard.min.css?v=5.1.2.00.09" type="text/css" />
+<link rel="stylesheet" href="/i/libraries/jquery-ui/1.10.4/themes/base/jquery-ui.min.css?v=5.1.2.00.09" type="text/css" />
+
+
+<link rel="stylesheet" href="/i/apex_ui/css/Core.min.css?v=5.1.2.00.09" type="text/css" />
+<link rel="stylesheet" href="/i/apex_ui/css/Theme-Standard.min.css?v=5.1.2.00.09" type="text/css" />
+
+
+
+<style type="text/css">
+.a-AppCards--slim .a-AppCards-icon { margin: 16px auto; }
+h1.a-Login-title { font-size: 20px; margin: 24px 0; }
+.a-Login-wsMsg { font-size: 14px; margin: 16px 8px; color: #707070; }
+</style>
+
+
+<script type="text/javascript">
+var apex_img_dir = "/i/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<!--[if lt IE 9]><script type="text/javascript" src="/i/libraries/jquery/1.12.3/jquery-1.12.3.min.js?v=5.1.2.00.09"></script><![endif]-->
+<!--[if gte IE 9]><!--><script type="text/javascript" src="/i/libraries/jquery/2.2.3/jquery-2.2.3.min.js?v=5.1.2.00.09"></script><!--<![endif]-->
+<script type="text/javascript" src="/i/libraries/apex/minified/desktop.min.js?v=5.1.2.00.09"></script>
+<script type="text/javascript" src="wwv_flow.js_messages?p_app_id=4900&amp;p_lang=en&amp;p_version=5.1.2.00.09-317383517"></script>
+<script type="text/javascript" src="/i/libraries/apex/minified/legacy.min.js?v=5.1.2.00.09"></script>
+<script type="text/javascript" src="/i/apex_ui/js/minified/builder_all.min.js?v=5.1.2.00.09"></script>
+ 
+<!--[if lt IE 9]><script src="/i/libraries/apex/html5_ie.js"></script><![endif]-->
+
+<script type="text/javascript">
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &amp;&amp; location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name="' + this.hash.slice(1) +'"]');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+</head>
+<body class="a-Page--login  ">
+<noscript>You must run this product with JavaScript enabled.</noscript>
+<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" novalidate="" autocomplete="off">
+<input type="hidden" name="p_flow_id" value="4900" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="101" id="pFlowStepId" /><input type="hidden" name="p_instance" value="6027841254505" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="57569724269922286741457016699275067592" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="A" id="pReloadOnSubmit" /><input type="hidden" value="57569724269922286741457016699275067592" id="pSalt" />
+
+
+<div class="u-Layout u-Layout--centerVertically a-Login-slide" id="top">
+  <span id="APEX_SUCCESS_MESSAGE" data-template-id="1418140425267007336_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="1418140425267007336_E" class="apex-page-error u-hidden"></span>
+  <div class="a-Login-container">
+  <div id="R1410890655888668019" class="a-Login-region a-Form--stretchInputs a-Form--labelsAbove">
+<div class="a-Login-header a-AppCards--slim">
+  <span class="a-AppCards-icon a-AppCards-icon--initials app-websheet-any-co  " role="presentation" aria-hidden="true"> </span>
+  <h1 class="a-Login-title">Sample Websheet - AnyCo IT Department</h1>
+</div>
+
+
+<div class="a-Login-body">
+  <div class="a-Form-fieldContainer icon-login-username" id="P101_USERNAME_CONTAINER"><div class="a-Form-inputContainer"><label for="P101_USERNAME" id="P101_USERNAME_LABEL" class="a-Icon a-Login-iconLabel">Username</label><input type="text" id="P101_USERNAME" name="P101_USERNAME" required="" aria-required="true" placeholder="username" class="text_field apex-item-text" value="" size="40" maxlength="128" /><span class="a-Login-iconValidation a-Icon icon-check"></span><span id="P101_USERNAME_error_placeholder" class="a-Form-error" data-template-id="1418153120551046350_ET"></span></div></div><div class="a-Form-fieldContainer icon-login-password" id="P101_PASSWORD_CONTAINER"><div class="a-Form-inputContainer"><label for="P101_PASSWORD" id="P101_PASSWORD_LABEL" class="a-Icon a-Login-iconLabel">Password</label><input type="password" name="P101_PASSWORD" size="40" maxlength="100" value="" id="P101_PASSWORD" required="" aria-required="true" placeholder="password" class="password apex-item-text" onkeypress="return apex.submit({request:'P101_PASSWORD',submitIfEnter:event})" /><span class="a-Login-iconValidation a-Icon icon-check"></span><span id="P101_PASSWORD_error_placeholder" class="a-Form-error" data-template-id="1418153120551046350_ET"></span></div></div><input type="hidden" id="P101_BUILDER_SESSION_ID" name="P101_BUILDER_SESSION_ID" value="" /><input type="hidden" data-for="P101_BUILDER_SESSION_ID" value="q3X-nAqnRwJGJnCiV01Yv3bs8DM1cX6IEW_L9hE-GSAxgYERw44VppRLAteyQqPZIbXjcWdWUh3zmYmgr_W6Bg" />
+</div>
+<div class="a-Login-buttons">
+  <button onclick="apex.submit({request:'LOGIN'});" class="a-Button a-Button--hot a-Button--large" type="button" id="B5698501044727837">Sign In</button>
+</div>
+<div class="a-Login-links">
+  <a href="javascript:apex.navigation.redirect('f?p=4900:92:6027841254505::NO:::');" class="ebaButton" id="B61034832101787205" role="button">Reset Password</a>
+</div>
+</div>
+  </div>
+</div><input type="hidden" id="pPageItemsRowVersion" value="" /><input type="hidden" id="pPageItemsProtected" value="PoRzNU-XLagxZh0T9B-4PggHieaKyAJWGWiIYJRCNxM" /></form>
+
+
+
+
+<script type="text/javascript">
+apex.jQuery( document ).ready( function() {
+(function(){
+var lTimeoutField = document.getElementById("apex_login_throttle_sec"),
+    lTimeout      = lTimeoutField ? +lTimeoutField.innerHTML : 0;
+if (lTimeout) {
+    var lTimer = window.setInterval (
+        function() {
+            if (lTimeout &gt; 0) {
+                lTimeoutField.innerHTML = lTimeout;
+                lTimeout--;
+            } else {
+                window.clearInterval(lTimer);
+                var lDiv = document.getElementById("apex_login_throttle_div");
+                if (lDiv) {
+                    lDiv.parentNode.removeChild(lDiv);
+                    return true;
+                }
+            }
+        },
+        1000 );
+}})();
+
+
+apex.item( 'P101_USERNAME' ).setFocus();
+});</script>
+
+</body></html>

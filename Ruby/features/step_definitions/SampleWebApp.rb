@@ -25,3 +25,7 @@ Then(/^User verify the response code$/) do
   expect($get_response.code).to eq(200)
   puts "Status Code For the Request:#{$get_response.code}"
 end
+
+When(/^User Sing In with valid(.*) and (.*)$/) do |username, password|
+  pending
+end
