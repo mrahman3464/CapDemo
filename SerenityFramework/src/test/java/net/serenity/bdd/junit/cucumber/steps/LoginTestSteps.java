@@ -12,10 +12,14 @@ public class LoginTestSteps extends ScenarioSteps {
 	public void openLogInPage(){
 		loginPage.openLogInPage_PO();
 	}
-	public void performLogIn(DataGenerator dataGenerator) {
-		// TODO Auto-generated method stub
-		loginPage.performLogIn(dataGenerator);
-	}
+//	public void performLogIn(DataGenerator dataGenerator) {
+//		// TODO Auto-generated method stub
+//		//loginPage.performLogIn(dataGenerator);
+//	}
 	
+	public void performLogIn() {
+		// TODO Auto-generated method stub
+		loginPage.performLogIn();
+	}
 	
 }

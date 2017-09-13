@@ -19,12 +19,17 @@ public class LoginPage extends GenericPageObject {
 	}
 	
 	
-	public void performLogIn(DataGenerator dataGenerator){
-		userNameField.sendKeys(dataGenerator.getUserName());
-		passworField.sendKeys(dataGenerator.getPassword());
+//	public void performLogIn(DataGenerator dataGenerator){
+//		userNameField.sendKeys(dataGenerator.getUserName());
+//		passworField.sendKeys(dataGenerator.getPassword());
+//		signInButton.click();
+//	}
+	
+	public void performLogIn(){
+		userNameField.sendKeys("cggs");
+		passworField.sendKeys("cggs");
 		signInButton.click();
 	}
-	
 	
 	
 }
