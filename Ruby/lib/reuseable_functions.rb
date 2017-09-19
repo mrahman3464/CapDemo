@@ -163,7 +163,8 @@ module ReuseableFunction
 
 
   def getPhoneNumber
-    $string3="(#{('2'..'9').to_a.shuffle[0,3].join})"+('0'..'9').to_a.shuffle[0,7].join
+    #$string3="(#{('2'..'9').to_a.shuffle[0,3].join})"+('0'..'9').to_a.shuffle[0,7].join     #(203)23343333
+    $string3="#{('2'..'9').to_a.shuffle[0,3].join}"+('0'..'9').to_a.shuffle[0,7].join        # 20323343333
     return $string3
   end
 

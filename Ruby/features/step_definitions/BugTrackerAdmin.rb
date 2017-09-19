@@ -17,9 +17,13 @@ Then(/^a successful message will be displayed$/) do
 end
 
 When(/^Admin Edit a User$/) do
-  pending
+  on(BugTrackerAdministrationPage).editUser
+
+
 end
 
 When(/^Admin Delete a User$/) do
-  pending
+  on(BugTrackerAdministrationPage).deleteUser
+
+
 end

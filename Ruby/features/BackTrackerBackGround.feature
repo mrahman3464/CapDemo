@@ -20,4 +20,4 @@ Feature: Administration Work
   Scenario: Delete An Existing User
     Given User is logged in to the Bug Tracker Application As an Admin
     When Admin Delete a User
-    Then a successful message will be displayed
+   # Then a successful message will be displayed

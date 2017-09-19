@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="features-step_definitions-BugTrackerAdmin_rb.html">features/step_definitions/BugTrackerAdmin.rb</a></td>
-            <td class='right_align'><tt>25</tt></td>
+            <td class='right_align'><tt>29</tt></td>
             <td class='right_align'><tt>14</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>64.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>86.21%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:64px"></div>
-        <div class="uncovered" style="width:36px"></div>
+        <div class="covered" style="width:86px"></div>
+        <div class="uncovered" style="width:14px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>35.71%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>71.43%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:36px"></div>
-        <div class="uncovered" style="width:64px"></div>
+        <div class="covered" style="width:71px"></div>
+        <div class="uncovered" style="width:29px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -53,16 +53,16 @@
         <tr class="marked">
           <td><pre><a name="line2">2</a> Given(/^User is logged in to the Bug Tracker Application As an Admin$/) do</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line3">3</a>   on(BugTrackerHomePage).verifyHomepage</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line4">4</a>   on(BugTrackerHomePage).who_am_i</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line5">5</a>   on(BugTrackerHomePage).click_on_admin_link</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line6">6</a>   on(BugTrackerHomePage).verifyAdminPage</pre></td>
         </tr>
         <tr class="inferred">
@@ -108,27 +108,39 @@
           <td><pre><a name="line20">20</a> When(/^Admin Edit a User$/) do</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line21">21</a>   pending</pre></td>
+          <td><pre><a name="line21">21</a>   on(BugTrackerAdministrationPage).editUser</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line22">22</a> end</pre></td>
+          <td><pre><a name="line22">22</a> </pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line23">23</a> </pre></td>
         </tr>
-        <tr class="marked">
-          <td><pre><a name="line24">24</a> When(/^Admin Delete a User$/) do</pre></td>
-        </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line25">25</a>   pending</pre></td>
+        <tr class="inferred">
+          <td><pre><a name="line24">24</a> end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line26">26</a> end</pre></td>
+          <td><pre><a name="line25">25</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line26">26</a> When(/^Admin Delete a User$/) do</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line27">27</a>   on(BugTrackerAdministrationPage).deleteUser</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line28">28</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line29">29</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line30">30</a> end</pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2017-09-12 23:00:07 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-09-17 03:50:46 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="features-step_definitions-SampleWebApp_rb.html">features/step_definitions/SampleWebApp.rb</a></td>
-            <td class='right_align'><tt>27</tt></td>
-            <td class='right_align'><tt>13</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>81.48%</tt></div>
+            <td class='right_align'><tt>31</tt></td>
+            <td class='right_align'><tt>15</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>74.19%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:81px"></div>
-        <div class="uncovered" style="width:19px"></div>
+        <div class="covered" style="width:74px"></div>
+        <div class="uncovered" style="width:26px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>61.54%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>46.67%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:62px"></div>
-        <div class="uncovered" style="width:38px"></div>
+        <div class="covered" style="width:47px"></div>
+        <div class="uncovered" style="width:53px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -65,7 +65,7 @@
         <tr class="marked">
           <td><pre><a name="line6">6</a> When(/^User Sing In with Valid Credentials$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line7">7</a>   on(WebSheetApp).signIn</pre></td>
         </tr>
         <tr class="inferred">
@@ -80,7 +80,7 @@
         <tr class="marked">
           <td><pre><a name="line11">11</a> Then(/^User do some administrative work on Dashbord$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line12">12</a>   on(WebAppHomePage).dashbordAdmin</pre></td>
         </tr>
         <tr class="inferred">
@@ -123,7 +123,7 @@
           <td><pre><a name="line25">25</a> Then(/^User verify the response code$/) do</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line26">26</a>   expect($get_response.code).to eq(200)</pre></td>
+          <td><pre><a name="line26">26</a>   expect($get_response.code).to eq(204)</pre></td>
         </tr>
         <tr class="uncovered">
           <td><pre><a name="line27">27</a>   puts &quot;Status Code For the Request:#{$get_response.code}&quot;</pre></td>
@@ -131,10 +131,22 @@
         <tr class="inferred">
           <td><pre><a name="line28">28</a> end</pre></td>
         </tr>
+        <tr class="inferred">
+          <td><pre><a name="line29">29</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line30">30</a> When(/^User Sing In with valid(.*) and (.*)$/) do |username, password|</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line31">31</a>   pending</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line32">32</a> end</pre></td>
+        </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2017-09-12 23:00:07 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-09-17 03:50:46 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

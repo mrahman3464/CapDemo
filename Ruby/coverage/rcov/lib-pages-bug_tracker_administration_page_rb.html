@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="lib-pages-bug_tracker_administration_page_rb.html">lib/pages/bug_tracker_administration_page.rb</a></td>
-            <td class='right_align'><tt>83</tt></td>
-            <td class='right_align'><tt>24</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.36%</tt></div>
+            <td class='right_align'><tt>147</tt></td>
+            <td class='right_align'><tt>72</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>72.79%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:90px"></div>
-        <div class="uncovered" style="width:10px"></div>
+        <div class="covered" style="width:73px"></div>
+        <div class="uncovered" style="width:27px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>66.67%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>44.44%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:67px"></div>
-        <div class="uncovered" style="width:33px"></div>
+        <div class="covered" style="width:44px"></div>
+        <div class="uncovered" style="width:56px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -72,16 +72,16 @@
           <td><pre><a name="line8">8</a> #-----------------New User Info-----------------------------------------------------------------------------------------</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line9">9</a>   element(:newUserIFrame) {|b| b.iframe(xpath:&#39;//*[@id=&quot;apex_dialog_3&quot;]/iframe&#39;)}                                  #User Name Field</pre></td>
+          <td><pre><a name="line9">9</a>   element(:newUserIFrame) {|b| b.iframe(title:&#39;User Details&#39;)}                                  #User Name Field</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line10">10</a>   element(:userNameField) {|b| b.text_field(id:&quot;P54_USERNAME&quot;)}                                  #User Name Field</pre></td>
+          <td><pre><a name="line10">10</a>   element(:userNameField) {|b| b.text_field(xpath:&quot;.//*[@id=&#39;P54_USERNAME&#39;]&quot;)}                                  #User Name Field</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line11">11</a>   element(:accesslavel) {|b| b.radio(id:&quot;P54_ACCESS_LEVEL_ID_2&quot;)}                                  #Access Lavel</pre></td>
+          <td><pre><a name="line11">11</a>   element(:accesslavel) {|b| b.radio(id:&quot;P54_ACCESS_LEVEL_ID_3&quot;)}                                  #Access Lavel</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line12">12</a>   element(:first_name) {|b| b.input(id:&#39;P54_FIRST_NAME&#39;)}                        #First Name</pre></td>
+          <td><pre><a name="line12">12</a>   element(:first_name) {|b| b.text_field(id:&#39;P54_FIRST_NAME&#39;)}                        #First Name</pre></td>
         </tr>
         <tr class="marked">
           <td><pre><a name="line13">13</a>   element(:last_name) {|b| b.text_field(id:&quot;P54_LAST_NAME&quot;)}                       #Last name</pre></td>
@@ -96,7 +96,7 @@
           <td><pre><a name="line16">16</a>   element(:addUserButton) {|b| b.button(id:&quot;B3804644194737414592&quot;)}                                  #Save Button</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line17">17</a>   element(:successMessage) {|b| b.h2(xpath:&#39;//*[@id=&quot;t_Alert_Success&quot;]/div/div[2]/div/h2&#39;)}          #Success Message</pre></td>
+          <td><pre><a name="line17">17</a>   element(:successMessage) {|b| b.div(id:&#39;t_Alert_Success&#39;)}          #Success Message</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line18">18</a> </pre></td>
@@ -114,106 +114,106 @@
           <td><pre><a name="line22">22</a>   def newUserInfo</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line23">23</a>     # strRand=rand(1..100)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line24">24</a>     # @randomUser=&quot;mturner#{strRand}&quot;</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line25">25</a>     # str_email=rand(1..1000)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line26">26</a>     # @randdomEmail= &quot;michale.turner#{str_email}@gmail.com&quot;</pre></td>
+          <td><pre><a name="line23">23</a> </pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line27">27</a>     sleep 4</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line28">28</a> </pre></td>
+          <td><pre><a name="line24">24</a>     strRand=rand(1..100)</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line29">29</a>     @browser.iframe(xpath:&#39;//*[@id=&quot;apex_dialog_3&quot;]/iframe&#39;).input(xpath:&#39;//*[@id=&quot;P54_USERNAME&quot;]&#39;).when_present.set(&quot;mturner&quot;)</pre></td>
+          <td><pre><a name="line25">25</a>       @randomUser=&quot;mturner#{strRand}&quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line26">26</a>       str_email=rand(1..1000)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line27">27</a>       @randdomEmail= &quot;michale.turner#{str_email}@gmail.com&quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line28">28</a>       sleep 4</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line29">29</a>     newUserIFrame.text_field(id:&quot;P54_USERNAME&quot;).when_present.set @randomUser</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line30">30</a>     newUserIFrame.label(xpath:&#39;//*[@id=&quot;P54_ACCESS_LEVEL_ID&quot;]/label[3]&#39;).click</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line31">31</a>     newUserIFrame.text_field(id:&#39;P54_FIRST_NAME&#39;).when_present.set getRecord(&quot;firstName&quot;)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line32">32</a>     newUserIFrame.text_field(id:&quot;P54_LAST_NAME&quot;).when_present.set getRecord(&quot;lastName&quot;)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line33">33</a>     newUserIFrame.text_field(id:&quot;P54_EMAIL&quot;).when_present.set @randdomEmail</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line34">34</a>     newUserIFrame.text_field(id:&quot;P54_WORK_PHONE&quot;).when_present.set getPhoneNumber</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line35">35</a>     newUserIFrame.button(id:&quot;B3804644194737414592&quot;).when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line30">30</a> </pre></td>
+          <td><pre><a name="line36">36</a>   end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line31">31</a> </pre></td>
+          <td><pre><a name="line37">37</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line32">32</a>     #@browser.text_field(xpath:&#39;//*[@id=&quot;P54_USERNAME&quot;]&#39;).set(&quot;mmmmmm&quot;)</pre></td>
+          <td><pre><a name="line38">38</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line33">33</a>    #  newUserIFrame.text_field(id:&quot;P54_USERNAME&quot;).when_present.set(&quot;mturner&quot;)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line34">34</a>    # # accesslavel.when_present.click</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line35">35</a>    #  first_name.when_present.set getRecord(&quot;firstName&quot;)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line36">36</a>    #  last_name.when_present.set getRecord(&quot;lastName&quot;)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line37">37</a>    #  email.when_present.set(randdomEmail)</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line38">38</a>    #  phone.when_present.set getPhoneNumber</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line39">39</a>    #  addUserButton.when_present.click</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line40">40</a>   end</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line41">41</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line42">42</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line43">43</a> </pre></td>
+          <td><pre><a name="line39">39</a> </pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line44">44</a>   def verifySuccessMessage</pre></td>
+          <td><pre><a name="line40">40</a>   def verifySuccessMessage</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line45">45</a>     if successMessage.text.eql?(&quot;Action Processed.&quot;)</pre></td>
+          <td><pre><a name="line41">41</a>     sleep 3</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line46">46</a>       puts &quot;User Has Been Added Successfully&quot;</pre></td>
+          <td><pre><a name="line42">42</a>    successMs=@browser.div(class:&#39;t-Alert-header&#39;).h2(xpath:&#39;//*[@id=&quot;t_Alert_Success&quot;]/div/div[2]/div/h2&#39;).text</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line43">43</a>    puts successMs</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line44">44</a>     if successMs.eql?(&quot;Action Processed.&quot;)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line45">45</a>       puts &quot;User Has Been Added Successfully&quot;</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line47">47</a>     end</pre></td>
+          <td><pre><a name="line46">46</a>     end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line48">48</a>   end</pre></td>
+          <td><pre><a name="line47">47</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line48">48</a> </pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line49">49</a> </pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line50">50</a> </pre></td>
-        </tr>
         <tr class="marked">
-          <td><pre><a name="line51">51</a>   def addANewUser</pre></td>
+          <td><pre><a name="line50">50</a>   def addANewUser</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line52">52</a>     access_control.when_present.click</pre></td>
+          <td><pre><a name="line51">51</a>     access_control.when_present.click</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line53">53</a>     sleep 3</pre></td>
+          <td><pre><a name="line52">52</a>     sleep 3</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line54">54</a>     user.when_present.click</pre></td>
+          <td><pre><a name="line53">53</a>     user.when_present.click</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line55">55</a>     addUser.when_present.click</pre></td>
+          <td><pre><a name="line54">54</a>     addUser.when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line56">56</a>   end</pre></td>
+          <td><pre><a name="line55">55</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line56">56</a> </pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line57">57</a> </pre></td>
@@ -222,61 +222,61 @@
           <td><pre><a name="line58">58</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line59">59</a>   #</pre></td>
+          <td><pre><a name="line59">59</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line60">60</a>   # @counter = 0</pre></td>
+          <td><pre><a name="line60">60</a> #----------------------Access Control List------------------------------------------------------------------------------</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line61">61</a>   element(:userTable) {|b| b.table(id:&quot;3463952981357039301&quot;)}</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line61">61</a>   #</pre></td>
+          <td><pre><a name="line62">62</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line63">63</a>   element(:applyChanges) {|b| b.button(id:&quot;B3804644295052414592&quot;)}</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line62">62</a>   # while user.present? == false &amp;&amp; user.exist? == false do</pre></td>
+          <td><pre><a name="line64">64</a>   # book_title = &#39;book title 2&#39;</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line63">63</a>   #   access_control.when_present.click</pre></td>
+          <td><pre><a name="line65">65</a>   # table = browser.table(:id =&gt; &#39;my_table&#39;)</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line64">64</a>   #   @counter +=1</pre></td>
+          <td><pre><a name="line66">66</a>   # book_row = table.trs.find{ |tr| tr.td(:index =&gt; 1).text == book_title }</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line65">65</a>   #   if @counter == 5</pre></td>
+          <td><pre><a name="line67">67</a>   # book_row.button(:value =&gt; &#39;View&#39;).click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line66">66</a>   #     puts  &quot; *** Requested object was not found ***&quot;</pre></td>
+          <td><pre><a name="line68">68</a> </pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line67">67</a>   #     break</pre></td>
+        <tr class="marked">
+          <td><pre><a name="line69">69</a>   def editUser</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line68">68</a>   #   else</pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line70">70</a>     sleep 3</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line69">69</a>   #     sleep 2</pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line71">71</a>     access_control.when_present.click</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line70">70</a>   #   end</pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line72">72</a>     sleep 3</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line71">71</a>   # end</pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line73">73</a>     user.when_present.click</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line72">72</a> </pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line74">74</a>     sleep 4</pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line73">73</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line74">74</a> </pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line75">75</a> </pre></td>
+        <tr class="uncovered">
+          <td><pre><a name="line75">75</a>     clickOnUsername</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line76">76</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line77">77</a> </pre></td>
+          <td><pre><a name="line77">77</a>   end</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line78">78</a> </pre></td>
@@ -287,22 +287,214 @@
         <tr class="inferred">
           <td><pre><a name="line80">80</a> </pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line81">81</a> </pre></td>
+        <tr class="marked">
+          <td><pre><a name="line81">81</a>   def deleteUser</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line82">82</a>     sleep 3</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line83">83</a>     access_control.when_present.click</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line84">84</a>     sleep 3</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line85">85</a>     user.when_present.click</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line86">86</a>     sleep 4</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line87">87</a>     clickOnLastAddedUser</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line82">82</a> </pre></td>
+          <td><pre><a name="line88">88</a>   end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line83">83</a> </pre></td>
+          <td><pre><a name="line89">89</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line84">84</a> end</pre></td>
+          <td><pre><a name="line90">90</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line91">91</a>   def clickOnLastAddedUser</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line92">92</a>     sleep 5</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line93">93</a>     table = @browser.table(id:&quot;3463952981357039301&quot;)</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line94">94</a>     table.rows.last do|row|</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line95">95</a>       row.cells.first.link.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line96">96</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line97">97</a>     end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line98">98</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line99">99</a>     sleep 5</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line100">100</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line101">101</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line102">102</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line103">103</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line104">104</a> def clickOnUsername</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line105">105</a>   @browser.link(:text =&gt; &#39;MRAHMAN&#39;).when_present.click</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line106">106</a>   sleep 4</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line107">107</a>   strRand=rand(1..100)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line108">108</a>   @randomUser=&quot;mturner#{strRand}&quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line109">109</a>   str_email=rand(1..1000)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line110">110</a>   @randdomEmail= &quot;michale.turner#{str_email}@gmail.com&quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line111">111</a>   sleep 4</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line112">112</a>   newUserIFrame.text_field(id:&#39;P54_FIRST_NAME&#39;).when_present.set getRecord(&quot;firstName&quot;)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line113">113</a>   newUserIFrame.text_field(id:&quot;P54_LAST_NAME&quot;).when_present.set getRecord(&quot;lastName&quot;)</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line114">114</a>   newUserIFrame.text_field(id:&quot;P54_EMAIL&quot;).when_present.set @randdomEmail</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line115">115</a>   newUserIFrame.text_field(id:&quot;P54_WORK_PHONE&quot;).when_present.set getPhoneNumber</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line116">116</a>   newUserIFrame.button(id:&quot;B3804644295052414592&quot;).when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line117">117</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line118">118</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line119">119</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line120">120</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line121">121</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line122">122</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line123">123</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line124">124</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line125">125</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line126">126</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line127">127</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line128">128</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line129">129</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line130">130</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line131">131</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line132">132</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line133">133</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line134">134</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line135">135</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line136">136</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line137">137</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line138">138</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line139">139</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line140">140</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line141">141</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line142">142</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line143">143</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line144">144</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line145">145</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line146">146</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line147">147</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line148">148</a> end</pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2017-09-12 23:00:07 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2017-09-17 03:50:46 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

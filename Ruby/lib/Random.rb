@@ -115,3 +115,30 @@
 #
 # end
 # puts "#{$string1}"
+
+
+#browser.td(:text => 'This is Text').parent.link.click
+# @browser.trs.find{ |tr|
+#   tr.td.exists? and tr.td(:index => 1).text == 'This is Text'
+# }.link.click
+
+
+#---------------Click all links inside 'div' with watir-webdriver------------------------------------------------------
+
+# <div class="container">
+# <ul>
+# <li id="Random Number 1"><a href="#">Random Name 1</a></li>
+# <li id="Random Number 2"><a href="#">Random Name 2</a></li>
+# <li id="Random Number 3"><a href="#">Random Name 3</a></li>
+# </ul>
+# </div>
+
+
+# browser.div(:class=>"container").links.each do | link |
+#   link.click
+#   browser.back
+# end
+
+
+$string3="#{('2'..'9').to_a.shuffle[0,3].join}"+('0'..'9').to_a.shuffle[0,7].join
+puts $string3

@@ -11,7 +11,7 @@ Feature: Sam
     Examples:
       |browser|
       |chrome40\|osx109|
-     # |firefox36\|windows81|
+      |firefox36\|windows81|
 #      |ie9\|windows7|
 #      |chrome40\|windowsxp|
  #     |chrome41\|osx109|

@@ -22,7 +22,7 @@ end
 
 
 Then(/^User verify the response code$/) do
-  expect($get_response.code).to eq(200)
+  expect($get_response.code).to eq(204)
   puts "Status Code For the Request:#{$get_response.code}"
 end
 
