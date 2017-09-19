@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome",3</Name>
+    <StartTime>2017-09-18 22:45:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>78495d38329e48708d77be9696cbcebc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Browser(...).Page(...).WebEdit(...).Set'</Name>
+    <ErrorText>Type mismatch: 'Browser(...).Page(...).WebEdit(...).Set'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl&lt;BR/&gt;Line (16): &amp;quot;Browser(&amp;quot;Sign In | Bug Tracker&amp;quot;).Page(&amp;quot;Sign In | Bug Tracker&amp;quot;).WebEdit(&amp;quot;P101_USERNAME&amp;quot;).Set Read_Data(Fpath, Sname, &amp;quot;UserName&amp;quot;, 1)&amp;quot;.</Description>
+    <StartTime>2017-09-18 22:45:55</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[signInToBuckTrackerWithExcelData]]></FunctionName>
+          <Scripts><![CDATA[Browser("Sign In | Bug Tracker").Page("Sign In | Bug Tracker").WebEdit("P101_USERNAME").Set Read_Data(Fpath, Sname, "UserName", 1)]]></Scripts>
+          <LineNo><![CDATA[16]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[signInToBuckTrackerWithExcelData]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[P101_USERNAME]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<BR/>Function file: C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl<BR/>Line (16): &quot;Browser(&quot;Sign In | Bug Tracker&quot;).Page(&quot;Sign In | Bug Tracker&quot;).WebEdit(&quot;P101_USERNAME&quot;).Set Read_Data(Fpath, Sname, &quot;UserName&quot;, 1)&quot;.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[P101_USERNAME]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1217fee6a66d42c08d90a204ec0e7ae0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8121923f-540a-4219-8d70-5ddf2d9ade58.jpeg" highlight="493,446,396,40" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-09-18 22:47:15</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>9c893855a032413b95fd1b8ce59f264e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sign In | Bug Tracker</Name>
+    <Description>Page</Description>
+    <StartTime>2017-09-18 22:45:55</StartTime>
+    <Duration>80</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>f916dfdd84f64d48a35b6e0795f940c5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sign In | Bug Tracker</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2017-09-18 22:45:55</StartTime>
+    <Duration>80</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>0e0534b4b1f7467a9dce7939018a8308</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2017-09-18 22:45:51</StartTime>
+    <Duration>84</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>fbd0727e251645d5a36aad9aea3e9a04</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-09-18 22:45:51</StartTime>
+    <Duration>84</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>bce5ab73ea4d4a0e818e5574c7b9a1ac</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>BugTracker</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.1</ToolVersion>
+    <Description />
+    <StartTime>2017-09-18 22:45:50</StartTime>
+    <Duration>85</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>fdc86d30717a46a4a093129059536920</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Moklasur</User>
+      <CpuInfo>Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8088</TotalMemory>
+      <HostName>SHAJIB</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res50</ResultName>
+    <RunStartTime>2017-09-18 22:45:50</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.1</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

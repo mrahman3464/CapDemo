@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome",3</Name>
+    <StartTime>2017-09-18 22:59:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>cf5f400299ef41d7a32b72637f66a384</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Browser(...).Page(...).WebEdit(...).Set'</Name>
+    <ErrorText>Type mismatch: 'Browser(...).Page(...).WebEdit(...).Set'</ErrorText>
+    <Description>&lt;BR/&gt;Function file: C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl&lt;BR/&gt;Line (17): &amp;quot;Browser(&amp;quot;Sign In | Bug Tracker&amp;quot;).Page(&amp;quot;Sign In | Bug Tracker&amp;quot;).WebEdit(&amp;quot;P101_USERNAME&amp;quot;).Set username&amp;quot;.</Description>
+    <StartTime>2017-09-18 22:59:49</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[signInToBuckTrackerWithExcelData]]></FunctionName>
+          <Scripts><![CDATA[Browser("Sign In | Bug Tracker").Page("Sign In | Bug Tracker").WebEdit("P101_USERNAME").Set username]]></Scripts>
+          <LineNo><![CDATA[17]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[signInToBuckTrackerWithExcelData]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<BR/>Function file: C:\Users\Moklasur\Documents\Unified Functional Testing\BugTracker\SignInFunction.qfl<BR/>Line (17): &quot;Browser(&quot;Sign In | Bug Tracker&quot;).Page(&quot;Sign In | Bug Tracker&quot;).WebEdit(&quot;P101_USERNAME&quot;).Set username&quot;.]]></OperationData>
+      </TestObject>
+      <IconKey>f92209f7987f49e8931b0fd4c388505b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f1d9b9cf-ca15-46d4-820e-ca67157bb963.jpeg" highlight="0,0,1374,744" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-09-18 23:00:09</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>a1e4be349d58468bb184e22c5db3d186</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sign In | Bug Tracker</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2017-09-18 22:59:49</StartTime>
+    <Duration>20</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Sign In | Bug Tracker]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>9c63ef6006174af7af17b1c961d97f79</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2017-09-18 22:59:47</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e840648f72bc4fe480ff5f3b525100c1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-09-18 22:59:47</StartTime>
+    <Duration>22</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>7791e64a1ea5486c9afe7b7f052a1ffc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>BugTracker</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.1</ToolVersion>
+    <Description />
+    <StartTime>2017-09-18 22:59:46</StartTime>
+    <Duration>23</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>0b41c267bde9478e8030a28983a02cbd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-04:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Moklasur</User>
+      <CpuInfo>Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8088</TotalMemory>
+      <HostName>SHAJIB</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res51</ResultName>
+    <RunStartTime>2017-09-18 22:59:46</RunStartTime>
+    <Timezone>-04:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.1</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
